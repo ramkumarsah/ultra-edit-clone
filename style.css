@@ -188,14 +188,14 @@ nav{
     .grid{
         grid-template-columns: 1fr 1fr;
     }
- }
+    .nav-con{
+        grid-template-columns: 1fr 1fr;
 
- @media (max-width: 860px){
-    .grid{
-        grid-template-columns: 1fr;
-       
     }
  }
+
+
+
  @media (max-width: 600px){
     .navbar{
         flex-direction: column;
@@ -320,6 +320,13 @@ font-family: Arial, Helvetica, sans-serif;
  .col4 input{
     color: rgb(0, 0, 0);
  }
+ @media (max-width:100px){
+    .nav-con{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }}
+
+
  @media (max-width:600px){
     .nav-con{
         display: grid;
